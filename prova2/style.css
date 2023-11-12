@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+  padding: 20px;
+  color: rgb(252, 202, 110);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.role-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.role-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.role-item.active {
+  color: rgb(255, 166, 0);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-card {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: -43px 38px 61px -12px #000000;
+  transform: perspective(1000px) rotatey(20deg);
+  transition: transform 0.3s;
+  align-items: center;
+  text-align: center;
+}
+
+
+.resized-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+
+.card {
+  margin-top: 40%;
+  margin-left: 148%;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  box-shadow: 2px 38px 58px -7px #000000;
+  transform: perspective(1000px) rotatex(20deg);
+  transition: transform 0.3s;
+  text-align: center;
+  padding: 5%;
+}
+
+.titolo2{
+  color: rgb(255, 166, 0);
+  font-weight: bold; font-style: italic;
+  
+}
+
+.Mission{
+  color: rgb(3, 3, 3);
+
+}
+
